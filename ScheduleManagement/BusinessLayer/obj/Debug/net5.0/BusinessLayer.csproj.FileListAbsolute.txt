@@ -10,3 +10,6 @@ E:\NCI\Term2\SC\ScheduleManagement\ScheduleManagement\BusinessLayer\obj\Debug\ne
 E:\NCI\Term2\SC\ScheduleManagement\ScheduleManagement\BusinessLayer\obj\Debug\net5.0\BusinessLayer.dll
 E:\NCI\Term2\SC\ScheduleManagement\ScheduleManagement\BusinessLayer\obj\Debug\net5.0\ref\BusinessLayer.dll
 E:\NCI\Term2\SC\ScheduleManagement\ScheduleManagement\BusinessLayer\obj\Debug\net5.0\BusinessLayer.pdb
+E:\NCI\Term2\SC\ScheduleManagement\ScheduleManagement\BusinessLayer\bin\Debug\net5.0\DataLayer.dll
+E:\NCI\Term2\SC\ScheduleManagement\ScheduleManagement\BusinessLayer\bin\Debug\net5.0\DataLayer.pdb
+E:\NCI\Term2\SC\ScheduleManagement\ScheduleManagement\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.CopyComplete
