@@ -1,0 +1,12 @@
+E:\NCI\Term2\SC\ScheduleManagement\ScheduleManagement\DataLayer\obj\Debug\net5.0\DataLayer.csproj.AssemblyReference.cache
+E:\NCI\Term2\SC\ScheduleManagement\ScheduleManagement\DataLayer\obj\Debug\net5.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\NCI\Term2\SC\ScheduleManagement\ScheduleManagement\DataLayer\obj\Debug\net5.0\DataLayer.AssemblyInfoInputs.cache
+E:\NCI\Term2\SC\ScheduleManagement\ScheduleManagement\DataLayer\obj\Debug\net5.0\DataLayer.AssemblyInfo.cs
+E:\NCI\Term2\SC\ScheduleManagement\ScheduleManagement\DataLayer\obj\Debug\net5.0\DataLayer.csproj.CoreCompileInputs.cache
+E:\NCI\Term2\SC\ScheduleManagement\ScheduleManagement\DataLayer\bin\Debug\net5.0\DataLayer.deps.json
+E:\NCI\Term2\SC\ScheduleManagement\ScheduleManagement\DataLayer\bin\Debug\net5.0\DataLayer.dll
+E:\NCI\Term2\SC\ScheduleManagement\ScheduleManagement\DataLayer\bin\Debug\net5.0\ref\DataLayer.dll
+E:\NCI\Term2\SC\ScheduleManagement\ScheduleManagement\DataLayer\bin\Debug\net5.0\DataLayer.pdb
+E:\NCI\Term2\SC\ScheduleManagement\ScheduleManagement\DataLayer\obj\Debug\net5.0\DataLayer.dll
+E:\NCI\Term2\SC\ScheduleManagement\ScheduleManagement\DataLayer\obj\Debug\net5.0\ref\DataLayer.dll
+E:\NCI\Term2\SC\ScheduleManagement\ScheduleManagement\DataLayer\obj\Debug\net5.0\DataLayer.pdb
