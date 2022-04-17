@@ -4,14 +4,76 @@
     "E:\\NCI\\Term2\\SC\\ScheduleManagement\\ScheduleManagement\\ScheduleManagement\\ScheduleManagement.csproj": {}
   },
   "projects": {
-    "E:\\NCI\\Term2\\SC\\ScheduleManagement\\ScheduleManagement\\ScheduleManagement\\ScheduleManagement.csproj": {
+    "E:\\NCI\\Term2\\SC\\ScheduleManagement\\ScheduleManagement\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\NCI\\Term2\\SC\\ScheduleManagement\\ScheduleManagement\\ScheduleManagement\\ScheduleManagement.csproj",
-        "projectName": "ScheduleManagement",
-        "projectPath": "E:\\NCI\\Term2\\SC\\ScheduleManagement\\ScheduleManagement\\ScheduleManagement\\ScheduleManagement.csproj",
+        "projectUniqueName": "E:\\NCI\\Term2\\SC\\ScheduleManagement\\ScheduleManagement\\BusinessLayer\\BusinessLayer.csproj",
+        "projectName": "BusinessLayer",
+        "projectPath": "E:\\NCI\\Term2\\SC\\ScheduleManagement\\ScheduleManagement\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\Dinesh Kanojiya\\.nuget\\packages\\",
-        "outputPath": "E:\\NCI\\Term2\\SC\\ScheduleManagement\\ScheduleManagement\\ScheduleManagement\\obj\\",
+        "outputPath": "E:\\NCI\\Term2\\SC\\ScheduleManagement\\ScheduleManagement\\BusinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dinesh Kanojiya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\NCI\\Term2\\SC\\ScheduleManagement\\ScheduleManagement\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "E:\\NCI\\Term2\\SC\\ScheduleManagement\\ScheduleManagement\\DataLayer\\DataLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\NCI\\Term2\\SC\\ScheduleManagement\\ScheduleManagement\\DataLayer\\DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\NCI\\Term2\\SC\\ScheduleManagement\\ScheduleManagement\\DataLayer\\DataLayer.csproj",
+        "projectName": "DataLayer",
+        "projectPath": "E:\\NCI\\Term2\\SC\\ScheduleManagement\\ScheduleManagement\\DataLayer\\DataLayer.csproj",
+        "packagesPath": "C:\\Users\\Dinesh Kanojiya\\.nuget\\packages\\",
+        "outputPath": "E:\\NCI\\Term2\\SC\\ScheduleManagement\\ScheduleManagement\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +106,81 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\NCI\\Term2\\SC\\ScheduleManagement\\ScheduleManagement\\ScheduleManagement\\ScheduleManagement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\NCI\\Term2\\SC\\ScheduleManagement\\ScheduleManagement\\ScheduleManagement\\ScheduleManagement.csproj",
+        "projectName": "ScheduleManagement",
+        "projectPath": "E:\\NCI\\Term2\\SC\\ScheduleManagement\\ScheduleManagement\\ScheduleManagement\\ScheduleManagement.csproj",
+        "packagesPath": "C:\\Users\\Dinesh Kanojiya\\.nuget\\packages\\",
+        "outputPath": "E:\\NCI\\Term2\\SC\\ScheduleManagement\\ScheduleManagement\\ScheduleManagement\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dinesh Kanojiya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\NCI\\Term2\\SC\\ScheduleManagement\\ScheduleManagement\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "E:\\NCI\\Term2\\SC\\ScheduleManagement\\ScheduleManagement\\BusinessLayer\\BusinessLayer.csproj"
+              },
+              "E:\\NCI\\Term2\\SC\\ScheduleManagement\\ScheduleManagement\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "E:\\NCI\\Term2\\SC\\ScheduleManagement\\ScheduleManagement\\DataLayer\\DataLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"

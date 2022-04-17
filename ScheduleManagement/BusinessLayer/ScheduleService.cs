@@ -17,11 +17,23 @@ namespace BusinessLayer
         }
 
 
-        public IEnumerable<MeetingEvent> GetAllPersons()
+        public IEnumerable<MeetingEvent> GetAllMeeting()
         {
             try
             {
                 return _meetingevent.GetAll().ToList();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public MeetingEvent GetMeetingById(int Id)
+        {
+            try
+            {
+                return _meetingevent.GetById(Id);
             }
             catch (Exception)
             {
