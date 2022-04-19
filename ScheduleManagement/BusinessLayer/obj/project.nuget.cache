@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "M8jnXfz0tDVHGtrIdnW7das527SBa08Zkurn7Ah9ZGgK5SSVLZogbWx4vbmJ/AmMpcL7YP0Xu654YSpFlJbbLA==",
+  "dgSpecHash": "tGN+7R8/TgO1ALAILt+pI+LCVuWRQrYELKdJ0FvxOB/Ur01YHwAjOOZEQ4qPOOHgIhOWREFlB2yS9eLloJs7gA==",
   "success": true,
   "projectFilePath": "E:\\NCI\\Term2\\SC\\ScheduleManagement\\ScheduleManagement\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Dinesh Kanojiya\\.nuget\\packages\\awssdk.core\\3.7.10.8\\awssdk.core.3.7.10.8.nupkg.sha512",
+    "C:\\Users\\Dinesh Kanojiya\\.nuget\\packages\\awssdk.simplenotificationservice\\3.7.3.48\\awssdk.simplenotificationservice.3.7.3.48.nupkg.sha512",
     "C:\\Users\\Dinesh Kanojiya\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.16\\microsoft.entityframeworkcore.5.0.16.nupkg.sha512",
     "C:\\Users\\Dinesh Kanojiya\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.16\\microsoft.entityframeworkcore.abstractions.5.0.16.nupkg.sha512",
     "C:\\Users\\Dinesh Kanojiya\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.16\\microsoft.entityframeworkcore.analyzers.5.0.16.nupkg.sha512",

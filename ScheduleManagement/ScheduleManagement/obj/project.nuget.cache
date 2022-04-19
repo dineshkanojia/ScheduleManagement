@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "nYqKWVs5qdMFXXsZGyAyHKP29vJkNozfDg6jY18O6a949UxG1jbh6g0OZ+aLwtq83UjmISYzgB8DKhrPaAE3rA==",
+  "dgSpecHash": "uT3qpclpA5ULY7O8Aa+TVWh0ou4Obj+3GUb7tMM9dndWWc9baVkgSh3oLsAmeGyPT1hC0d/DBkx5U3TcSxzo4w==",
   "success": true,
   "projectFilePath": "E:\\NCI\\Term2\\SC\\ScheduleManagement\\ScheduleManagement\\ScheduleManagement\\ScheduleManagement.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Dinesh Kanojiya\\.nuget\\packages\\awssdk.core\\3.7.10.8\\awssdk.core.3.7.10.8.nupkg.sha512",
+    "C:\\Users\\Dinesh Kanojiya\\.nuget\\packages\\awssdk.simplenotificationservice\\3.7.3.48\\awssdk.simplenotificationservice.3.7.3.48.nupkg.sha512",
     "C:\\Users\\Dinesh Kanojiya\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Dinesh Kanojiya\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\Dinesh Kanojiya\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",

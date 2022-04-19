@@ -1,12 +1,14 @@
 ﻿using BusinessLayer;
 using DataLayer.Interface;
 using DataLayer.Model;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace ScheduleManagement.Controllers
@@ -27,11 +29,36 @@ namespace ScheduleManagement.Controllers
         }
 
         [HttpPost("AddMeeting")]
+        [Authorize(Roles = "Employee")]
         public async Task<Object> AddMeeting([FromBody] MeetingEvent meeting)
         {
             try
             {
                 await _scheduleservice.AddMeeting(meeting);
+
+
+                //Calling AWS SNS services.
+
+                //Mobile Notification
+                AWSSNS aWSNotification = new AWSSNS();
+                aWSNotification.CreateTopic("MeetingInvite", "New Meeting Events");
+                aWSNotification.CreateMobileSubscription("MeetingInvite", "9819646351");
+                aWSNotification.PublishMobileMessage("Your new meeting invited created.", "9819646351");
+
+                StringBuilder sb = new StringBuilder();
+                sb.Append("Dear " + "Employee");
+                sb.Append(Environment.NewLine);
+                sb.Append("You have set up a meeting invite from: " + meeting.StartDate + " to:" + meeting.EndDate);
+                sb.Append(Environment.NewLine);
+                sb.Append("Meeting agenda" + meeting.Description);
+                sb.Append(Environment.NewLine);
+                sb.Append(Environment.NewLine);
+                sb.Append("Thanks.");
+
+                //Email Notification
+                aWSNotification.CreateEmailSubscription("MeetingInvite", "diinesh.kanojia@gmail.com");
+                aWSNotification.PublishEmailMessage("MeetingInvite", sb.ToString(), "Meeting details.");
+
                 return true;
             }
             catch (Exception)
